@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxUi-Serilog", "RxUi-Serilog\RxUi-Serilog.csproj", "{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6780EDA-0694-4471-B267-92ADF9DF5824}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Debug|x64.ActiveCfg = Debug|x64
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Debug|x64.Build.0 = Debug|x64
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Release|x64.ActiveCfg = Release|x64
+		{BDDE3D4B-EB16-4F42-9642-C7B68101C3A9}.Release|x64.Build.0 = Release|x64
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Debug|x64.ActiveCfg = Debug|x64
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Debug|x64.Build.0 = Debug|x64
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Release|x64.ActiveCfg = Release|x64
+		{EB2DD5E9-0C0C-4809-AF93-71307404DBEC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6D4AF9-E1C8-4E58-97CE-CFCEB12E7DF6}
+	EndGlobalSection
+EndGlobal
