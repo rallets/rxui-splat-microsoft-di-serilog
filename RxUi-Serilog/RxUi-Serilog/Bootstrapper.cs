@@ -11,6 +11,7 @@ using Splat;
 using Splat.Serilog;
 using Microsoft.Extensions.DependencyInjection;
 using Services;
+using Splat.Microsoft.Extensions.Logging;
 
 namespace RxUi_Serilog;
 
@@ -55,6 +56,8 @@ public static class Bootstrapper
             })
 			.ConfigureLogging((context, builder) =>
 			{
+				builder.AddSplat();
+
                 var logger = new LoggerConfiguration()
                     .ReadFrom.Configuration(context.Configuration)
                     .CreateLogger();
